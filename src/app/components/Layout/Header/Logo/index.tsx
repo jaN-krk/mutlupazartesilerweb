@@ -12,7 +12,7 @@ const Logo: React.FC<HeaderProps> = () => {
         alt="logo"
         width={110}
         height={50}
-        style={{ width: 'auto', height: 'auto' }}
+        style={{  height: 'auto' }}
         quality={100}
         className='dark:hidden md:w-[110px] w-[80px]'
       />
@@ -21,7 +21,7 @@ const Logo: React.FC<HeaderProps> = () => {
         alt="logo"
         width={110}
         height={50}
-        style={{ width: 'auto', height: 'auto' }}
+        style={{ height: 'auto' }}
         quality={100}
         className='dark:block hidden md:w-[110px] w-[80px]'
       />
