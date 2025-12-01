@@ -32,7 +32,7 @@ const Footer: FC = () => {
                 <Image
                   src="/images/logo/logo-beyaz.png"
                   alt="Logo"
-                  width={151}
+                  width={120}
                   height={32}
                 />
               </Link>

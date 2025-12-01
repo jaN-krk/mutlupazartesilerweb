@@ -251,7 +251,7 @@ const Header: React.FC = () => {
                 setNavbarOpen(false);
               }}
             >
-              Sign In
+              {/* Sign In */}
             </Link>
             <Link
               href="/signup"
@@ -260,7 +260,7 @@ const Header: React.FC = () => {
                 setNavbarOpen(false);
               }}
             >
-              Sign Up
+              {/* Sign Up */}
             </Link>
           </div>
         </nav>
