@@ -71,7 +71,7 @@ const ServiceDetail = () => {
             <section className="bg-grey dark:bg-darklight">
                 <div className="container mx-auto lg:max-w-xl md:max-w-screen-md px-4">
                     <h4 className="font-semibold md:text-40 text-32 text-black dark:text-white lg:text-start text-center">
-                        Key Features
+                        {/* Key Features */}
                     </h4>
                     <ul className="mt-4 text-xl">
                         {item.features.map((feature: any, index: any) => (

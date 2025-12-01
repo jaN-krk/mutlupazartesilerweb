@@ -239,12 +239,12 @@ const Header: React.FC = () => {
             </svg>
           </button>
         </div>
-        {/* <nav className="flex flex-col items-start p-4">
+        <nav className="flex flex-col items-start p-4">
           {headerData.map((item, index) => (
             <MobileHeaderLink key={index} item={item} />
           ))}
           <div className="mt-4 flex gap-4 w-full">
-            <Link
+            {/* <Link
               href="/signin"
               className="bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-orange-600 hover:text-white"
               onClick={() => {
@@ -252,8 +252,8 @@ const Header: React.FC = () => {
               }}
             >
               Sign In
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="/signup"
               className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-orange-600"
               onClick={() => {
@@ -261,9 +261,9 @@ const Header: React.FC = () => {
               }}
             >
               Sign Up
-            </Link>
+            </Link> */}
           </div>
-        </nav> */}
+        </nav>
       </div>
     </header>
   );
