@@ -239,7 +239,7 @@ const Header: React.FC = () => {
             </svg>
           </button>
         </div>
-        <nav className="flex flex-col items-start p-4">
+        {/* <nav className="flex flex-col items-start p-4">
           {headerData.map((item, index) => (
             <MobileHeaderLink key={index} item={item} />
           ))}
@@ -251,7 +251,7 @@ const Header: React.FC = () => {
                 setNavbarOpen(false);
               }}
             >
-              {/* Sign In */}
+              Sign In
             </Link>
             <Link
               href="/signup"
@@ -260,10 +260,10 @@ const Header: React.FC = () => {
                 setNavbarOpen(false);
               }}
             >
-              {/* Sign Up */}
+              Sign Up
             </Link>
           </div>
-        </nav>
+        </nav> */}
       </div>
     </header>
   );
