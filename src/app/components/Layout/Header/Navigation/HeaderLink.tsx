@@ -30,7 +30,7 @@ const HeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
         className={`text-base flex font-normal  text-black hover:text-primary dark:text-white dark:hover:text-primary  ${
           item.href === path ? "!text-primary dark:!text-primary" : null
         } ${
-          path.startsWith(`/${item.label.toLowerCase()}`)
+          path && path.startsWith(`/${item.label.toLowerCase()}`)
             ? "text-primary dark:!text-primary"
             : null
         } text-black hover:text-primary dark:text-white dark:hover:text-primary`}
