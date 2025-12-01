@@ -14,7 +14,7 @@ const Logo: React.FC<HeaderProps> = () => {
         height={50}
         style={{ width: 'auto', height: 'auto' }}
         quality={100}
-        className='dark:hidden'
+        className='dark:hidden md:w-[110px] w-[80px]'
       />
       <Image
         src="/images/logo/logo-beyaz.png"
@@ -23,7 +23,7 @@ const Logo: React.FC<HeaderProps> = () => {
         height={50}
         style={{ width: 'auto', height: 'auto' }}
         quality={100}
-        className='dark:block hidden'
+        className='dark:block hidden md:w-[110px] w-[80px]'
       />
     </Link>
   );
